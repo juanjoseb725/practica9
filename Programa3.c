@@ -11,7 +11,7 @@ int main() {
     printf("Código ASCII: %d\n", *ap); 
 
     // %p es el formato correcto para imprimir direcciones de memoria (punteros)
-    printf("Dirección de memoria: %p\n", (void*)ap);
+    printf("Dirección de memoria: %d\n", (void*)ap);
 
     return 0;
 }
